@@ -6,7 +6,7 @@ Soruları cevaplamak için [GitHub docs](https://docs.github.com/en)'u kullanabi
 
 Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama becerileriniz size yardımcı olacaktır :)
 
-1. Git nedir?
+1. Git nedir? cevaplanacak
 2. Git ile GitHub arasında ne fark var?
 3. Neden bir branch oluşturuyoruz? 
 4. Pull Request'in amacı nedir?
