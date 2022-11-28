@@ -12,8 +12,8 @@ Bunları yaptı iseniz size yöneticiniz tarafından verilen ilk göreviniz 'Git
 
 
 ## Görev 1: 
-- [ ] Bu repo'yu sağ üstteki Fork butonu ile kendi hesabınızda bir kopyasını yaratın
-- [ ] Kendi hesabınızda oluşan bu kopya'yı bilgisayarınıza clone'lamak için sağ üstteki yeşil Code butonu ile SSH URL'i kopyalayın: `git clone git@github.com:GITHUB-HESABINIZ/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git`
+- [x] Bu repo'yu sağ üstteki Fork butonu ile kendi hesabınızda bir kopyasını yaratın
+- [x] Kendi hesabınızda oluşan bu kopya'yı bilgisayarınıza clone'lamak için sağ üstteki yeşil Code butonu ile SSH URL'i kopyalayın: `git clone git@github.com:GITHUB-HESABINIZ/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git`
 - [ ] Mac kullanıyorsanız `Terminal`i, Windows kullanıyorsanız `Git Bash`'de bu kodu yapıştırıp çalıştırın
 - [ ] Bir branch yaratın: `git checkout -b 'ADINIZ-SOYADINIZ'`
 - [ ] sorular.md dosyasındaki soruları cevaplandırın
