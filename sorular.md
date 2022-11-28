@@ -7,7 +7,7 @@ Soruları cevaplamak için [GitHub docs](https://docs.github.com/en)'u kullanabi
 Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama becerileriniz size yardımcı olacaktır :)
 
 1. Git nedir?
-Git, yazılım geliştirme süreçlerinde kullanılan, hız odaklı, dağıtık çalışan bir sürüm kontrol ve kaynak kod yönetim sistemidir. 
+Git, yazılım geliştirme süreçlerinde kullanılan, hız odaklı, dağıtık çalışan bir sürüm kontrol ve kaynak kod yönetim sistemidir. deneme yapıldı.
 2. Git ile GitHub arasında ne fark var?
 Git bir projede ciddi anlamda işimizi kolaylaştırırken github ise projelerimizin sağlandığı uzak sunucudur.
 3. Neden bir branch oluşturuyoruz? 
