@@ -14,3 +14,12 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 7. Merge conflict nedir?
 8. Merge conflict'i nasıl çözeriz?
+
+1-Projede ortak çalışabileceğimiz versiyon kontrol sistemi.
+2-Github projelerin durduğu uzak sunucu git ise projenin bir çok kişi tarafından aynı anda çalışmasını sağlar.
+3-Çünkü projeye eklemek istediğimiz bir şey varsa ana akışı bozmadan üzerinde çalışmayı sağlar, daha sonra merge edilerek ana projeye katılabilir.
+4- forkladığımız projeyi daha iyi hale getirdiysek bunu proje sahibine bu şekilde sunarız.
+5- git checkout main 
+6-fetch= elimizdeki forkun up to date olmasını sağlar. git merge ise birleştirme işlemi yapar. Git pull ise pull req işlemi yapar.
+7-Eğer forkladığımız projenin aynı yerinde çalışyıorsak bu bir conflict oluşturur.
+8-Ekip arkadaşınla contactda kalarak çözülebilir.
