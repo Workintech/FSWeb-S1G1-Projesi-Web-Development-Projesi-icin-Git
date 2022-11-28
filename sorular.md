@@ -14,6 +14,6 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 7. Merge conflict nedir?
 8. Merge conflict'i nasıl çözeriz?
-ASGŞASGDLADLGLDSGLSFŞGSŞDG
-S
-AGAŞDGAŞGSDG
+
+
+1 GİT : Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir. Git sayesinde yapacağınız projelerin adım adım versiyonlarının kopyalarını alarak daha sonra ihtiyaç duyduğunuzda aldığınız kopyalara yani versiyonlara kolayca dönebiliyorsunuz.
