@@ -6,11 +6,11 @@ Soruları cevaplamak için [GitHub docs](https://docs.github.com/en)'u kullanabi
 
 Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama becerileriniz size yardımcı olacaktır :)
 
-1. Git nedir?
-2. Git ile GitHub arasında ne fark var?
-3. Neden bir branch oluşturuyoruz? 
-4. Pull Request'in amacı nedir?
-5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz.
-6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
-7. Merge conflict nedir?
-8. Merge conflict'i nasıl çözeriz?
+1. Git nedir? Cevap: Git, dağıtık versiyon kontrol sistemidir. Dosyalarda vb. yapılan değişikliklerin kayıt edilmesini, takip edilmesini ve geçmiş versiyonlara erişim sağlanmasını sağlar. Bu sayede, özellikle yazılımcıların ekip olarak çalışmasına olanak tanır.
+2. Git ile GitHub arasında ne fark var? Cevap: Git, bir versiyon kontrol sistemidir. GitHub ise Git repo'larının yönetilmesini sağlayan bulut-tabanlı bir platformdur.  
+3. Neden bir branch oluşturuyoruz? Cevap: Dahil olmadığımız bir remote repository üzerinde değişiklik yapabilmek için ilk olarak bu repo'yu kendi repo alanımıza forklarız. Fork'ladığımız bu dosyayı kendi repo alanımızdaki ana / orijinal versiyon olarak düşünebiliriz. Ana versiyon üzerinde güvenli şekilde deiğişiklik yapabilmek için branch yöntemini kullanmak en sağlıklı yöntemdir. Bu sayede, ilk aşamada fork'ladığımız ana versiyona etki etmeden, istenen değişiklikleri yapabiliriz. Dolayısıyla, branch oluşturmamızdaki temel neden forklanan ana versiyonu muhafaza ederek, istediğimiz değişiklikleri branch üzerinde yapıp, daha sonra da ana versiyon ile merge etmektir.
+4. Pull Request'in amacı nedir? Cevap: Pull Request, dahil olmadığımız bir repo'yu forkladıktan ve yerel'e clone'ladıktan sonra yapılan değişiklikleri, orijinal repo sahibine bildirdiğimiz yöntemdir.  Bu sayede, reponun orijinal sahipleri bizim yaptığımız değişiklikleri değerlendirip, orijinal kod üzerinde yapılan değişiklikleri uygulayabilir.
+5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz. Cevap 1: Mevcut main isimli branch'e geçiş yapmak için kullanılan komut: git checkout branch. Cevap 2: Main isimli yeni bir branch oluşturup bu branch'e geçiş yapmak için kullanılan komut: git checkout -b main.
+6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız. Cevap: Git Fetch, remote ile yerel repo arasındaki farklılıkları belirtir, fakat değişiklikleri merge yapmaz.  Git Merge, iki branch'in ayrıldıkları en son versiyon itibariyle yapılan değişikliklerin birleştirilmesini ifade eder.  Git Pull ise sırasıyla fork, clone ve branch işleminden sonra remote repo'da fork itibariyle yaşanan değişikliklerin yerel'deki branch'e yansıtılması sağlar.  
+7. Merge conflict nedir? Cevap: Çakışan commit'leri bulunan branch'lerin merge edilmek istenmesi durumunda Git'in kullanıcıdan hangi değişikliklerin merge esnasında dikkate alınması gerektiğini sorması durumudur.  Merge Conflict'e genellikle farklı branch'lerin aynı satır ve/veya dosyalarında oluşan farklılıklar neden olur.
+8. Merge conflict'i nasıl çözeriz? Cevap: Çakışan dosyanın manuel olarak düzeltilerek, nihai merge versiyonunda olması istenilen duruma getirilmesi gerekir. Farklı branch'lerin aynı satırında veya dosyasındaki farklılık nedeniyle oluşan merge conflict durumunda GitHub'ın conflict editor aracı kullanılabilir. Diğer durumlarda ise yerel'de clone yapılarak sorunun çözülmesi ve ardından değişikliğin remote'taki branch'e pus edilmesi gerekir.
