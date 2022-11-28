@@ -14,3 +14,15 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 7. Merge conflict nedir?
 8. Merge conflict'i nasıl çözeriz?
+
+Cevaplar
+1.yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir.
+2.Git; bir projenin bir çok kişi ile aynı anda yapılabilmesini sağlar.Github ise projelerimizin saklandığı (depolandığı) uzak sunucudur.
+3.Ana akışı etkilemeden üzerinde çalıştığımız istenilen durumda merge edebileceğimiz bir kopya diyebiliriz.
+4.proje üzerinde değişiklik yaptım, sen de bu değişiklikleri onaylarak projene merge et demek anlamına gelir.
+5.git checkout main yazarak main'e geçiş yapılabilir.
+6.git fetch, “yerel depomu uzaktaki deponun içeriğine güncelle” anlamına gelir.
+git pull “uzaktaki deponun değişikliklerini yerel depoya getir” der.
+git merge ise ana akışa bir dal ekleme yada iki dalı birleştirme anlamına gelir.
+7.İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır. 
+8.Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir.
