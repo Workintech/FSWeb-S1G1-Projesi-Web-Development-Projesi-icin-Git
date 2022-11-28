@@ -6,7 +6,7 @@ Soruları cevaplamak için [GitHub docs](https://docs.github.com/en)'u kullanabi
 
 Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama becerileriniz size yardımcı olacaktır :)
 
-1. Git nedir?
+1. Git nedir????
 Git bir versiyon kontrol sistemidir. Projelerimizin güvenli şekilde kayda alınmasını sağlar. Geçmiş güncellerimize kolayca ulaşabiliriz, projeler üzerinde yaptığımız değişiklikleri düzenli biçimde görebiliriz. Başkalarının yazdığı projelere ulaşabilir ve karşı tarafın da gönüllü olması durumunda projelerine ekleme yapabiliriz. 
 2. Git ile GitHub arasında ne fark var?
 GitHub Git uygulaması kullanılarak oluşturulmuş, projelerinizi internet üzerinde depolayacağınız bir sistemdir. 
