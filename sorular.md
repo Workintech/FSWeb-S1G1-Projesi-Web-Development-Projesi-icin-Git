@@ -6,11 +6,13 @@ Soruları cevaplamak için [GitHub docs](https://docs.github.com/en)'u kullanabi
 
 Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama becerileriniz size yardımcı olacaktır :)
 
-1. Git nedir?
-2. Git ile GitHub arasında ne fark var?
-3. Neden bir branch oluşturuyoruz? 
-4. Pull Request'in amacı nedir?
-5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz.
-6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
-7. Merge conflict nedir?
-8. Merge conflict'i nasıl çözeriz?
+
+Git nedir?
+Orjinaline dokunmandan proje üzerinde değişiklikler yaparak gelişime devam edebilmemize olanak sağlayan şeyin adı gittir.
+Git ile GitHub arasında ne fark var? Eğer Git, GitHub’ın kalbiyse, Hub da onun ruhudur. GitHub’daki hub ise komut satırını, Git gibi, geliştiriciler için en büyük sosyal ağa çevirendir. Belirli bir projeye katkı sağlamanın dışında GitHub kullanıcılarına kendileri gibi hemfikir insanlarla sosyalleşme olanağı sağlar. İnsanları takip edebilir ve ne yaptıklarını veya kimle bağlantı kurduklarını izleyebilirsiniz.
+Neden bir branch oluşturuyoruz? Branch deponuzun bir kopyasıdır. Branch’i diğerlerinden ayrı bir geliştirme yapmak istediğiniz zaman kullanabilirsiniz. Branch üzerinde çalışmak merkezi repository’yi veya öbür branchleri etkilemez. İşiniz bittiğinde, pull request’i kullanarak branch’inizi öbür branch’lerle ve merkezi repo ile birleştirebilirsiniz.
+Pull Request'in amacı nedir? ull request, projenizde birlikte çalıştığınız kişileri bir dalda yaptığınız değişikliği ana depoya gönderdiğinize dair bilgilendirdiğiniz anlamına gelmekte. Bu depo, katkıda bulunanları kabul edebilir veya reddedebilir. Pull request (Çekme İstekleri) açıldığında, çalışmanızı birlikte çalıştığınız kişilerle tartışabilir ve gözden geçirebilirsiniz.
+Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz. git checkout [yeni_branch]
+git fetch, git merge ve git pull arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız. git merge : birleştirme komutudur. git pull : git pulls komutu uzaktaki bir depodan verileri getirip indirirken yerel depoyu getirilen verilerle eşleşecek şekilde günceller. Git pulls komutu, git fetch ve git merge komutlarının bir kombinasyonudur, bu nedenle başlangıçta git fetch komutunun işlevini yerine getirir ve daha sonra commit’i birleştirir ve yeni bir merge commit oluşturur. git fetch : Git fetch, uzaktaki bir deponun dosyalarını, anlık görüntülerini ve referanslarını yerel deponuza indiren bir komuttur. Bu komut, yerel deponuzun mevcut çalışma durumunu güncellemeden uzaktaki verileri indirir, çalışmanızı olduğu gibi bırakır ve getirilen içerik gitcheckout komutu kullanılarak açıkça kontrol edilir.
+Merge conflict nedir? Gerçek dünyada siz bir dosyada bir güncelleme yaparken başka birisi o dosyayı silmiş, ismini değiştirmiş olabilir. Bunun için bu farklılıkları çözmemiz gerekir. Oluşabilecek durumlar.
+Merge conflict'i nasıl çözeriz? 1nci tip Sorun: İki kişinin aynı dosyada değişiklik yapması . Çözüm: Bendeki kaynağı kullan, Ondaki kaynağı kullan, İkimizdekini mantıklı bir şekilde gözle birleştir. 2nci tip Sorun: Birisinin çalıştığı dosyaları ,diğer kişinin silmesi Çözüm: Bendeki kaynağı kullan, Ondaki kaynağı kullan.. Değişikliği yapıp direk push etmeye çalıştığımda .
