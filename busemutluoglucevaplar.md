@@ -22,4 +22,4 @@ git fetch, “yerel depomu uzaktaki deponun içeriğine güncelle” anlamına g
 7. Merge conflict nedir?
 İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır. 
 8. Merge conflict'i nasıl çözeriz?
-Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir.
+Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir..
