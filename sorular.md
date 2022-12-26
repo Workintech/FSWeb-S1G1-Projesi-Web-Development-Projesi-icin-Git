@@ -7,7 +7,7 @@ Soruları cevaplamak için [GitHub docs](https://docs.github.com/en)'u kullanabi
 Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama becerileriniz size yardımcı olacaktır :)
 
 1. Git nedir?
-Karisik bisi
+Karisik bisi.
 2. Git ile GitHub arasında ne fark var?
 Git kalp ise, github ruhudur.
 3. Neden bir branch oluşturuyoruz? 
