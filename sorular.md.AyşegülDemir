@@ -1,0 +1,34 @@
+## Araştırma Soruları
+
+Şimdi görevi gerçekleştirmek için hazırsınız. Şimdi biraz daha kullandığımız araçları anlama zamanı. Bu dokümanı güncelleyerek, aşağıdaki soruları cevaplayınız. Git'e biraz daha aşina olmaya başladığınızı göreceksiniz. 
+
+Soruları cevaplamak için [GitHub docs](https://docs.github.com/en)'u kullanabilirsiniz. Docs, (ingilizce documentation'ın kısaltılmış halidir) bir programı veya dilin nasıl kullanılacağını anlatan dokümandır. Yazılım dünyasında sıkça kullanılır. Bir yazılımcı olarak zamanınızın büyük çoğunluğu da bu tarz dokümanları okumakla ve üzerinde çalışmakla geçer.
+
+Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama becerileriniz size yardımcı olacaktır :)
+
+1. Git nedir?
+Git, Workintech sitesindeki tanımınız olarak açıklayacak olursak açık kaynaklı bir versiyon kontrol sistemidir. 
+2. Git ile GitHub arasında ne fark var?
+Git, bir versiyon kontrol sistemi iken GitHub bu sistemleri bulut halinde saklayan ve erişimi kolaylaştıran bir bulut ya da depodur. GitHub, git sistemlerinin kullanımını kolaylaştıran bir şirket ara yüzüdür denilebilir mi emin değilim bu aşamada. Ama internette gördüğüm ve anlamamı kolaylaştıran bir örnek olarak belirtmek isterim ki "git:malzemeyi bir yerden bir yere taşıyan nakliye, GitHub:malzemelerin depolandığı büyük bir depodur." 
+3. Neden bir branch oluşturuyoruz? 
+Çünkü yaptığımız her işlemin hemen ana kaynağa eklenmesini istemiyoruz. Önce bir denemek istiyoruz. Bir hata varsa görmek ve kaynağa geri döndüremeyeceğimiz bir zarar vermeden başka bir kopya üzerinde değiştirmek istiyoruz. Bu şey gibi geldi bana yine örneklemek gerekirse; eskiden fotoğraflarımızı düzenlediğimizde direkt fotoğraf güncelleniyordu ve bir hata yaptıysak da geçmiş olsun çünkü eski fotoğraf kayboluyordu. Ama artık bilgisayar ve telefonlarımız otomatik olarak kopyayı yedek olarak kaydediyor ki, kaynak olan asıl fotoğrafta tekrar değişiklik yapmak istersek o da sabit kalsın ve mağduriyetimiz oluşmasın. Sonuç olarak kaynakta değişiklik yapmadan yedekleyerek kopya üzerinde oynamak için branch oluşturuyoruz. 
+4. Pull Request'in amacı nedir?
+Pull Request'in amacı yaptığımız değişikliğin gerekli ya da düzeltici olduğunu düşünüyorsak ilk işlem sahibine haber vermek bence. Çünkü biz forkladığımızda ya da pushladığımızda bu bizim sayfamızda kalıyor. Proje sahibinin hiçbir şeyden haberi yok. Belki bir bugını düzelttik ya da projeye destek olacağını düşündüğümüz bir ekleme yaptık. Bu bizim sayfamızda kaldı ve kimsenin haberi yok. Bunu proje sahibine açıklamamızla birlikte gönderiyoruz. Ve o da inceliyor bizimle aynı fikirdeyse requestimizi kabul ediyor ve bizim yaptığımız bu değişiklikler herkesçe görülebilir bir şekilde projede güncelleniyor. 
+5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek isyorsunuz.
+Burada kullandığımız komut 'git checkout'. Bu komut ile branchler arası geçiş yapmamızı 'get checkout -b' yeni isim vererek bir branch oluşturmamızı sağlar. Örneğin 'git checkout main' komutu ile ana kaynağa geçebiliriz.  
+6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+Bu komutların hepsi farklı çalışmaların güncellenmesi amacını taşır. Farklılıkları şu şekildedir:
+'git fetch' komutunda merge yani birleştirme yoktur. Aslında daha çok veriyi getir komutu denebilir. Fetch komutu hedef brachte bulunan ama işlem yaptığımız branchte bulunmayan değişiklikleri gösterir. Böylece hala kendi işlem yaptığımız branch değişmeden ve zarar görmeden diğer fetch yaptığımız branch'teki değişiklikleri görmüş oluruz. Yani yerel depomu, uzaktaki depomun içeriği ile inceleyerek göster demektir. Bizim yerel depomuzdan branchimizden bir şeyler silmez, uzaktakinde bir değişiklik varsa onları ekler. Bu da bizim değişiklikleri açıkça görmemizi sağlar. Bu değişiklilerden hangisini almak istediğimizi ya da çıkarmak istediğimizi seçebiliriz.  
+'git merge' komutunda ise başka bir branchteki işlemi kendi branchimizle birleştirmemiz ve kendi branch'imize entegre etme işlemimizdir. Dalları birleştirir ve tek bir ana kaynaktan devam etmemizi ya da yapılan değişiklileri tek bir kaynakta görmemizi sağlar. Bu aşamadan sonra Fetch komutundaki gibi istemediğimiz değişiklikleri almama gibi bir lüksümüz yoktur. Hali hazırdaki iki branchi olduğu gibi birleştirir. Bazı beğendiğim özellikleri alayım diğerlerini çıkarayım tipi bir seçim hakkımız yoktur. 
+'git pull' ise aslında bu iki komutun birleşimidir. Önce bir fetch sonra da merge komutunu uygular. Böylece önce farklılıkları günceller ve sonra farklı branchleri birleştirir.  
+7.Merge conflict nedir?
+Google'daki tanım beni aydınlattı hemen copy-paste yapıyoruz. "İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git, otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır."
+8. Merge conflict'i nasıl çözeriz?
+Bu konuyu çok araştırdım ama okuduğum yazılar benim seviyemi aşıyordu pek de anlamadım. Tahmini bir cevap vermek istiyorum bu sebeple. Şimdiden kusura bakmayın lütfen... 
+Öncelikle bir conflict durumu varsa 'git merge --abort' komutu ile branchi merge etmeden önceki duruma geri döndürmekle başlardım çözümüme. Sonra da birleşemeyen branchleri 'git fetch' konumu ile farklı verileri getirerek değişiklikleri görerek branchimi tekrar düzenler ve tekrar merge etmeyi denerdim sanırım. 'git status' vb. komutlar gördüm bu işlem için ama anlamadığım için benim için biraz daha oturan komutlarla çözmeye çalışırdım. Bu şey gibi logaritma bilmeden önce üslü sayılar çözmek gibi... belki daha kolay ve daha doğru bir yolu vardır ama ben elimdeki bilgilerle çözmeye çabalıyorum. 
+
+Bir de bu conflict'te terminalde değil de GitHub sistemi üzerinden çözüm üretmeye çalışırsak GitHub'ın bize bu conflict'e çözüm üretmek için seçenekler sunduğunu görürüz. Conflict'te sebep olan editleri göstererek hangisini seçmek istediğimizi sorar. Bu seçenekler: 'kendi branch editimizi kullanmak', 'conflict'e sebep olan diğer branch'teki editi kullanmak' ya da 'iki branchteki editleri ortak olarak kullanmak' gibi seçeneklerden birini seçerek de GitHub üserinden de conflict'i çözebiliriz. 
+
+
+
+Bu arada soruları uzun uzun cevapladım daha çok kendime anlatmaya çalışıyordum çünkü. Gereksiz uzattıysam kusura bakmayın. Meslek hastalığı daha az yazmaya da alışırım belki zamanla.
