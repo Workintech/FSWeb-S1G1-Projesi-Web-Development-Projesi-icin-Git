@@ -9,6 +9,7 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 1. Git nedir?
 Karisik bisi
 2. Git ile GitHub arasında ne fark var?
+Git kalp ise, github ruhudur.
 3. Neden bir branch oluşturuyoruz? 
 4. Pull Request'in amacı nedir?
 5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz.
