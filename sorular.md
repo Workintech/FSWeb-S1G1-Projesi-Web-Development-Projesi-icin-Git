@@ -16,3 +16,4 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 8. Merge conflict'i nasıl çözeriz?
 Cevaplar
 1.sdasdasdasdas
+2.sdadsadasdasdas
