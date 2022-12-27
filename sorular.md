@@ -1,3 +1,4 @@
+
 ## Araştırma Soruları
 
 Şimdi görevi gerçekleştirmek için hazırsınız. Şimdi biraz daha kullandığımız araçları anlama zamanı. Bu dokümanı güncelleyerek, aşağıdaki soruları cevaplayınız. Git'e biraz daha aşina olmaya başladığınızı göreceksiniz. 
@@ -15,7 +16,9 @@ Git kalp ise, github ruhudur.
 4. Pull Request'in amacı nedir?
 .
 5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz.
+Asd
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+...
 7. Merge conflict nedir?
 8. Merge conflict'i nasıl çözeriz?
 
