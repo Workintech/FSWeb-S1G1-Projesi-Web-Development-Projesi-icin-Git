@@ -28,3 +28,5 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 --İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır. 
 
 --Çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir.
+
+asfasfqawfa
