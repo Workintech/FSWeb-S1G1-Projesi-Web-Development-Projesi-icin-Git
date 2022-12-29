@@ -19,10 +19,7 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 
-
 7. Merge conflict nedir?
-İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu duruma merge conflict denir.
 
 8. Merge conflict'i nasıl çözeriz?
-Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir.
 
