@@ -17,7 +17,9 @@ Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama be
 5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz.
 ##git checkout -b main
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
-##fetch: remote dosyalari, commitleri, degisitiklikleri locale indirmeye yarar. Kodun guncel halini alirsiniz. Ama localdeki agaci degistirmez.
+##fetch: remote dosyalari, commitleri, degisitiklikleri locale indirmeye yarar. Kodun guncel halini alirsiniz. Ama localdeki agaci guncellemez/degistirmez.
+merge: degisiklikleri birlestirmeye yarar
+pull: once degisiklikleri indirir sonra degisiklikleri birlestirir.
 7. Merge conflict nedir?
 ##Ayni dosyanin ayni satirinda yapilan iki farkli commit merge edilmeye calisilirsa conflict meydana gelir. Hangi commitin kabul edilecegine karar verilmelidir.
 8. Merge conflict'i nasıl çözeriz?
