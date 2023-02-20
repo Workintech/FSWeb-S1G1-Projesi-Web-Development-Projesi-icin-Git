@@ -20,3 +20,5 @@ git checkout 'branch_ismi'
 7. Merge conflict nedir?
 İki yazılımcının bir dosyada çalışırken bir yeri bağımsız olarak değiştirmeye çalışır ve aynı sözdizimlerini yazarlar ise çakışma durumu oluşur.
 8. Merge conflict'i nasıl çözeriz?
+git reset ile çözülebilir. Burada yaptığımız değişiklikleri geri alırız. Ya da rebase ile sürekli güncel tutarak yapabiliriz.
+
