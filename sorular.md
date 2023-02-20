@@ -37,4 +37,5 @@ konusunda input ihtiyacı olur - bunu Git otomatik halletmez. Bu çakışan duru
 farklı değişiklikler yapıldığı zaman veya biri dosyayı editleyip diğer kişi dosyayı sildiği zaman meydana gelir.
 
 C8. Merge Conflict olmaması için git pull yerine git fetch kullanılabilir. Merge Conflict'i sonradan çözmek için
-manüel olarak müdahale etmek gerekir. git status komutu ile Merge Conflict bulunan dosyalar görüntülenebilir.
+manüel olarak müdahale etmek gerekir. git status komutu ile Merge Conflict bulunan dosyalar görüntülenebilir. git mergetool
+ile bu dosyalar düzeltilebilir.
