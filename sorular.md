@@ -11,6 +11,7 @@ Github proje kodlarımızı sakladığımız bir sunucudur. Kod paylaşımı yap
 2. Git ile GitHub arasında ne fark var?
 git bir dildir. Github arayüz
 3. Neden bir branch oluşturuyoruz? 
+Branchın amacı yeni bir proje geliştirdiysek, onun eski kodları ile yeni kodları arasındaki farkı anlayabilmek için kullanılabilir. Takip etmeyi kolaylaştırır.
 4. Pull Request'in amacı nedir?
 5. Bir Branchten diğerine geçmek için kullanıdığımız KOMUT nedir? Örneğin ADINIZ-SOYADINIZ branch'inde çalıştığınızı hayal edin ve main branch'ine geçmek istiyorsunuz.
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
