@@ -18,4 +18,5 @@ Pull Request, proje sahibinin (ki burada Workintech oluyor) projede değiştirdi
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 git checkout 'branch_ismi'
 7. Merge conflict nedir?
+İki yazılımcının bir dosyada çalışırken bir yeri bağımsız olarak değiştirmeye çalışır ve aynı sözdizimlerini yazarlar ise çakışma durumu oluşur.
 8. Merge conflict'i nasıl çözeriz?
