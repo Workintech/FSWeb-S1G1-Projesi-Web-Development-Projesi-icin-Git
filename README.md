@@ -1,32 +1,27 @@
-# Web Development Projesi İçin Git
+# Web Development Projesi İçin Git Kullanımı
 
-Yeni bir kurumda bir Full Stack Web Developer olarak işe başladığınızı hayal edin. 
-İlk gün yapacağınız işlerden biri sorumlu olacağınız projenin kodlarını kendi bilgisayarınıza almak ve bu kodların çalışacağı ortamı hazırlamaktır. 
+Yeni bir kurumda bir Full Stack Web Developer olarak işe başladığınızı hayal et. İlk gün yapacağın işlerden biri de, sorumlu olacağın projenin kodlarını kendi bilgisayarınıza almak ve bu kodların çalışacağı ortamı hazırlamak.
 
-Sorumlu olacağınız projenin kodlarını çalıştırabilmek için;
-(1) Tüm gerekli programları yüklemeli
-(2) Bilgisayarınızda yeni bir SSH key oluşturup GitHub hesabınıza eklemelisiniz.
+Sorumlu olacağın projenin kodlarını çalıştırabilmek için;
 
-Bunları yaptı iseniz size yöneticiniz tarafından verilen ilk göreviniz 'Git'e aşina olmak'. Bunun için sizden aşağıdaki görevi tamamlamanızı istiyor.
+1. Tüm gerekli programları yüklemelisin.
+2. Bilgisayarında yeni bir SSH key oluşturup Github hesabına eklemelisin.
 
+Bunları yaptıysan, sana yöneticin tarafından verilen ilk görevin 'Git'e aşina olmak' projesi. Projenin detaylarını aşağıdaki görevi adımları olarak bulabilirsin.
 
+## Görev 1:
 
-## Görev 1: 
-- [ ] Bu repo'yu sağ üstteki Fork butonu ile kendi hesabınızda bir kopyasını yaratın
-- [ ] ❗Kendi GitHub hesabınızda❗oluşan bu kopya'yı açın. Bilgisayarınıza clone'lamak için sağ üstteki yeşil `Code` butonu ile SSH URL'i kopyalayın. SSH URL örneği: `git@github.com:GITHUB-HESABINIZ/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git`
-- [ ] Mac kullanıyorsanız `Terminal`i, Windows kullanıyorsanız `Git Bash`'de `git clone` yazdıktan sonra bu url'i yapıştırıp çalıştırın. Örneğin: `git clone git@github.com:GITHUB-HESABINIZ/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git`
-- [ ] Clone'ladığınız projenin klasörüne girin. (İPUCU: `ls`komutu ile oluşan klasörün adını görebilir, `cd` komutu ile klasöre girebilirsiniz.)
-- [ ] Bir branch yaratın: `git checkout -b 'ADINIZ-SOYADINIZ'`
-- [ ] Sorular.md dosyasındaki soruları cevaplandırın.
-- [ ] Aşağıdaki adımları yaparak;
-      - [ ] 1- bilgisayarınızda değiştirdiğiniz dosyayı ekleyiniz (`git add DOSYA-ADI`), 
-      - [ ] 2- commit ediniz(`git commit -m 'YAPTIĞINIZ DEĞİŞİKLİĞİ ANLATAN BİR AÇIKLAMA'`) 
-      - [ ] 3- ve GİTHUB'a push'layınız(`git push -u origin ADINIZ-SOYADINIZ`). 
-- [ ] Github'da Pull Request oluşturunuz: (Sağda yeni oluşturduğunzu branch `'ADINIZ-SOYADINIZ'`, solda ise `main` branch olduğundan emin olunuz. "merge" buton'una basmadığınızda emin olunuz!)
+- [ ] Bu repo'yu sağ üstteki Fork butonu ile kendi hesabında bir kopyasını oluştur.
+- [ ] ❗**Kendi Github hesabında**❗oluşan kopya'yı aç. Bilgisayarınıza _clone_'lamak için sağ üstteki yeşil `Code` butonu ile SSH URL'i kopyala. SSH URL örneği: `git@Github.com:senin-Github-hesabin/fsweb-s1g1-projesi-web-development-projesi-icin-git`
+- [ ] Mac kullanıyorsan `Terminal`i, Windows kullanıyorsan `Git Bash`'de `git clone` yazdıktan sonra bu url'i yapıştırıp çalıştır. Örneğin: `git clone git@Github.com:senin-Github-hesabin/fsweb-s1g1-projesi-web-development-Projesi-icin-git`
+- [ ] Clone'ladığın projenin klasörüne gir. (İPUCU: `ls`komutu ile oluşan klasörün adını görebilir, `cd` komutu ile klasöre girebilirsin.)
+- [ ] Bir branch yarat: `git checkout -b 'isim-soyisim'`
+- [ ] Sorular.md dosyasındaki soruları cevapla.
+- [ ] Aşağıdaki adımları takip ederk; - [ ] 1- bilgisayarında değiştirdiğin dosyayı ekle (`git add dosya-adi`), - [ ] 2- commit ediniz(`git commit -m 'Yaptığın değişikliği, iki hafta sonraki unutkan haline bile hatırlatabilecek bir açıklama'`) - [ ] 3- ve Github'a push'la (`git push -u origin isim-soyisim`).
+- [ ] Github'da Pull Request oluştur: (Sağda yeni oluşturduğun branch `'isim-soyisim'`, solda ise `main` branch olduğundan emin olunuz. "merge" buton'una **basmadığına** emin ol!)
 
+## Biten Projeyi Teslim Adımları
 
+Verilen görevi tamamladıktan sonra [Workintech Platformu](https://app.workintech.com.tr)'nda (app.workintech.com.tr) `Sprint 1>Gün 1`'in sonundaki "`Proje Teslim: Sprint 1 Gün 1`" içeriğini açıp; Github hesabınızda oluşturduğun repo'nun adresini buraya ekle.
 
-
-## Proje Teslim Etme Adımları
-
-Verilen görevi tamamladıktan sonra [Workintech Platformu](https://app.workintech.com.tr)'nda (app.workintech.com.tr) `Sprint 1>Gün 1`'in sonuna eklenmiş olan "`Proje Teslim: Sprint 1 Gün 1`" içeriğini açıp. GitHub hesabınızda oluşturduğunuz repo'nun adresini buraya ekleyiniz. Eğitmenlerimiz, gün projenizi kontrol edecek ve size slack üzerinden geribildirimde bulunacaklar.
+Eğitmenlerimiz, gün projeni kontrol edecek, gereken durumlarda sana slack üzerinden geribildirimde bulunacak.
