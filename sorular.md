@@ -1,12 +1,17 @@
-## Araştırma Soruları
+# Araştırma Soruları
 
-Şimdi görevi gerçekleştirmek için hazırsınız. Şimdi biraz daha kullandığımız araçları anlama zamanı. Bu dokümanı güncelleyerek, aşağıdaki soruları cevaplayınız. Git'e biraz daha aşina olmaya başladığınızı göreceksiniz. 
+Artık yeni iş yerindeki ilk görevini gerçekleştirmek için hazırsın! Kullandığımız araçları biraz daha iyi anlama zamanı. Yapman istenilen şey, bu dokümanı güncelleyerek, aşağıdaki soruları soruları cevaplaman. Böylece Git yapısına biraz daha aşina olmaya başlayacaksın.
 
-Soruları cevaplamak için [GitHub docs](https://docs.github.com/en)'u kullanabilirsiniz. Docs, (ingilizce documentation'ın kısaltılmış halidir) bir programı veya dilin nasıl kullanılacağını anlatan dokümandır. Yazılım dünyasında sıkça kullanılır. Bir yazılımcı olarak zamanınızın büyük çoğunluğu da bu tarz dokümanları okumakla ve üzerinde çalışmakla geçer.
+Soruları cevaplarken takıldığın yerlerde [GitHub docs](https://docs.github.com/en)'u kullanabilirsin. Docs, (ingilizce documentation'ın kısaltılmış halidir) bir programı veya dilin nasıl kullanılacağını anlatan dokümandır. Yazılım dünyasında sıkça kullanılır. Bir yazılımcı olarak _zamanınızın büyük çoğunluğu da bu tarz dokümanları okumakla ve üzerinde çalışmakla geçecek_.
 
-Eğer aradığınız soruların cevapları GitHub docs'ta yok ise Google'lama becerileriniz size yardımcı olacaktır :)
+![READ THE DOCS](https://github.com/Workintech/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git/blob/main/read-the-docs-wit.gif?raw=true)
+
+Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama becerileriniz size yardımcı olacak. Google'ı iyi kullanabilmek de aslında büyük bir dikkat ve çalışma gerektiriyor. Zamanla bu konuda da daha iyileştiğini göreceksin :)
+
+## Sorular
 
 1. Git nedir?
+
 Git, Açık Kaynak Dağıtılmış Sürüm Kontrol Sistemi(Open Source Distributed Version Control System)'dir.Geliştiriciler bir proje yarattıklarında ilk resmi (beta olmayan) sürüme kadar ve hatta sonrasında yeni sürümler yayınlayarak kod üzerinde sürekli değişiklik yaparlar. Sürüm kontrol sistemleri, değişiklikleri merkezi bir depoda saklayarak bu revizyonları düzenli tutar. Bu, geliştiricilerin kodun yerel sürümleri üzerinde çalışabilmelerini, değişiklik yapabilmelerini ve en yeni revizyonu yükleyebilmelerini sağlayarak kolayca işbirliği yapmalarına olanak tanır. Her geliştirici bu yeni değişiklikleri görebilir, indirebilir ve katkıda bulunabilir.
 
 2. Git ile GitHub arasında ne fark var?
@@ -25,7 +30,7 @@ Projeler birden fazla kanaldan geliştirilebilirler.Pull request de birden fazla
 Git pull komutu, git fetch ve git merge komutlarının amacına tek bir komutta hizmet eden bir komuttur. Git fetch, hedef branchteki bulunan ve mevcut branchte bulunmayan herhangi bir commit işlemini yapar ve local reponuza kaydeder. Ancak, bunları mevcut branchinize merge etmez. Git pull otomatik olarak merge işlemini gerçekleştirir. Git Fetch ile merge işlemi kullanıcı tarafından yapılır.
 
 7. Merge conflict nedir?
-Conflict kelime anlamı olarak çakışma anlamındadır. Proje üzerinde merge conflict uyarısı alınıyorsa merge edilirken bir çakışmanın oluştuğu anlamına gelmektedir. Kısaca aynı proje üzerinde çalışan kişiler projenin aynı line (satır) üzerinde farklı değişiklikler yaptıklarında proje merge conflict uyarısı vermektedir. 
+Conflict kelime anlamı olarak çakışma anlamındadır. Proje üzerinde merge conflict uyarısı alınıyorsa merge edilirken bir çakışmanın oluştuğu anlamına gelmektedir. Kısaca aynı proje üzerinde çalışan kişiler projenin aynı line (satır) üzerinde farklı değişiklikler yaptıklarında proje merge conflict uyarısı vermektedir.
 
 8. Merge conflict'i nasıl çözeriz?
 GitHub ya da command line kullanarak merge conflict çözmek mümkündür. Daha karmaşık bir problemde bazı durumlarda GitHub yeterli gelmeyebilir. Böyle durumlarda command line kullanarak belirli komutlarla bir sorunu ortadan kaldırabiliriz.
