@@ -21,9 +21,9 @@ Pull request değişik yaptığımız kodların origin brancha eklenmesinin tale
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 git checkout main
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
-git fetch : remote branch deki değişiklikleri locale çekmemize sağlar. 
+git fetch : remote branch deki değişiklikleri locale çekmemize sağlar, merge etmez. 
 git merge : ana branchimizden ayrı oluşturuduğumuz branchimizi ana branche bağlanmasını sağlar 
-git pull : o an kullanmakta olduğumuz branchi remote branch ile entergre eder günceller.
+git pull : o an kullanmakta olduğumuz branchi remote branch ile günceller ancak merge etmez.
 7. Merge conflict nedir?
 Branchlerin ana branche bağlanılırken ki çakışma durumudur ilk bağlanmaya çalışan için herhangi bir hata almaz sonradan bağlanılmaya çalışan ise hata ile karşılaşır çünkü bağlamak istediği brachte varolan kod veya aynı kod satırı üzerine yazılmış bilgiler mevcuttur bu sebeple git hangisini alacağını bilemez ve bu durumda developera sorar. 
 8. Merge conflict'i nasıl çözeriz?
