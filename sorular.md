@@ -12,13 +12,23 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 1. Git nedir?
 
+    Git, Open Source Distributed Version Control System'dir. Kodu geliştirirken versiyonları kayıt altında tutar.
+
 2. Git ile GitHub arasında ne fark var?
+
+    Git verileri kayıt altında tutma işlemidir. Github ise bu Git'leri bulut tabanında barındırır.
 
 3. Neden bir branch oluşturuyoruz?
 
+    Çünkü kod geliştirilirken istediğimiz bölümü ana koda zarar vermeden değiştirip entegre etmek daha sağlıklıdır. Bu yüzden Branch kullanırız.
+
 4. Pull Request'in amacı nedir?
 
+    Pull Request yöneticiye projede revize yapıldığını ve onaylanıp ana koda eklenmesi istendiğinde oluşturulan taleptir.
+
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
+
+    
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 
