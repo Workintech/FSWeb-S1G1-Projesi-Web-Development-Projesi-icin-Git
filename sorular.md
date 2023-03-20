@@ -20,7 +20,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
-6. `git fetch`, `git merge` ve `git pull` arasındaki farklılıkarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+6. `git fetch`, `git merge` ve `git pull` arasındaki farklılıkları açıklayınız. Bu konutlar ne yapar açıklayınız.
 
 7. Merge conflict nedir?
 
