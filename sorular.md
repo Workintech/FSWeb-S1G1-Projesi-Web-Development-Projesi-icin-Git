@@ -12,16 +12,34 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 1. Git nedir?
 
+   Git, projenin local olarak çalışılmasını sağlar. Geliştiriciler tarafından yapılan güncellemeri kayıt altına alır. Eski versiyon kodlara ise erişim sağlanabilir
+ 
 2. Git ile GitHub arasında ne fark var?
 
-3. Neden bir branch oluşturuyoruz?
+  GitHub, Git tabanlı çalışan cloud uygulamasıdır. GitHub, repository oluşturmamızı böylece veriyi depolamamızı sağlar. Git ise remote olarak repository arasındaki değişikleri sağlayandır. 
 
+3. Neden bir branch oluşturuyoruz?
+  Projeye yeni bir kod eklemek istendiğinde çalışmasını aksatma ihtimali vardır. Projeye yeni bir eklenti yapılmadan önce branch'i açılarak değişiklikler yapılabilir. Böylece default branch'e (master) zarar gelmeyecektir. 
+  
 4. Pull Request'in amacı nedir?
+
+  Fork edilen bir projenin değişikler yapılarak fork ettiğimiz projenin sahibine gönderilen bir taleptir.
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
+  /git brach/  komudunu kullanarak sahip olduğum branch'lar listelenir. Böylece /git checkout main/ ile main branch'ime geçebilirim.
+  
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+ 'git fetch', kodu remote repodan local depoya geçiren bir komuttur. Remote depoda yapılan değişiklikeri çakışma yaratmadan tekrar geri yükleyebilmemizi sağlar.(canlı derste konuşulmadı araştırma)
+ 'git merge', herhangi bir branch'de yaptığımız değişiklikleri main branch'imize birleştirme ve entegre etme işlemidir.  
+ 'git pull', remote olarak olan değişiklikleri local projelermize dahil edebilmemizi sağlar. Depodan verileri indirip local olarak depolarken eşleşecek şekilde günceller. 
+  
+  git fetch + git merge = git pull 
+ 
 
 7. Merge conflict nedir?
 
+  İki kişi aynı dosyada aynı satırı değiştirir ve otomatik olarak merge edememe durumudur. Ortaya bir çakışma çıkmış olur.
+
 8. Merge conflict'i nasıl çözeriz?
+   Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir. (kaynak internet)
