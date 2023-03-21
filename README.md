@@ -18,10 +18,10 @@ Bunları yaptıysan, sana yöneticin tarafından verilen ilk görevin 'Git'e aş
 - [ ] Bir branch yarat: `git checkout -b 'isim-soyisim'`
 - [ ] Sorular.md dosyasındaki soruları cevapla.
 - [ ] Aşağıdaki adımları takip ederk;
-- [ ] 1- bilgisayarında değiştirdiğin dosyayı ekle (`git add dosya-adi`),
-- [ ] 2- commit ediniz(`git commit -m 'Yaptığın değişikliği, iki hafta sonraki unutkan haline bile hatırlatabilecek bir açıklama'`)
-- [ ] 3- ve Github'a push'la (`git push -u origin isim-soyisim`).
-- [ ] 4- Github'da Pull Request oluştur: Kendi reponuz içerisinde iken, yeni geliştirme yaptığınız branchden, main branche pull request gönder: Sağda yeni oluşturduğun branch `'isim-soyisim'`, solda ise `main` branch olduğundan emin ol. Uyarı: "merge" buton'una **basmadığına** emin ol!)
+- 1 [ ] bilgisayarında değiştirdiğin dosyayı ekle (`git add dosya-adi`),
+- 2 [ ] commit ediniz(`git commit -m 'Yaptığın değişikliği, iki hafta sonraki unutkan haline bile hatırlatabilecek bir açıklama'`)
+- 3 [ ] ve Github'a push'la (`git push -u origin isim-soyisim`).
+- 4 [ ] Github'da Pull Request oluştur: Kendi reponun içerisinde iken, yeni geliştirme yaptığın branchden, main branche pull pull request gönder: Sağda yeni oluşturduğun branch `'isim-soyisim'`, solda ise `main` branch olduğundan emin ol. Uyarı: "merge" buton'una **basmadığına** emin ol!)
 
 ## Biten Projeyi Teslim Adımları
 
