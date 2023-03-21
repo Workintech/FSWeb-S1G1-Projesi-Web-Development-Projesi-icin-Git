@@ -17,8 +17,11 @@ Bunları yaptıysan, sana yöneticin tarafından verilen ilk görevin 'Git'e aş
 - [ ] Clone'ladığın projenin klasörüne gir. (İPUCU: `ls`komutu ile oluşan klasörün adını görebilir, `cd` komutu ile klasöre girebilirsin.)
 - [ ] Bir branch yarat: `git checkout -b 'isim-soyisim'`
 - [ ] Sorular.md dosyasındaki soruları cevapla.
-- [ ] Aşağıdaki adımları takip ederk; - [ ] 1- bilgisayarında değiştirdiğin dosyayı ekle (`git add dosya-adi`), - [ ] 2- commit ediniz(`git commit -m 'Yaptığın değişikliği, iki hafta sonraki unutkan haline bile hatırlatabilecek bir açıklama'`) - [ ] 3- ve Github'a push'la (`git push -u origin isim-soyisim`).
-- [ ] Github'da Pull Request oluştur: (Sağda yeni oluşturduğun branch `'isim-soyisim'`, solda ise `main` branch olduğundan emin olunuz. "merge" buton'una **basmadığına** emin ol!)
+- [ ] Aşağıdaki adımları takip ederk;
+- [ ] 1- bilgisayarında değiştirdiğin dosyayı ekle (`git add dosya-adi`),
+- [ ] 2- commit ediniz(`git commit -m 'Yaptığın değişikliği, iki hafta sonraki unutkan haline bile hatırlatabilecek bir açıklama'`)
+- [ ] 3- ve Github'a push'la (`git push -u origin isim-soyisim`).
+- [ ] 4- Github'da Pull Request oluştur: Kendi reponuz içerisinde iken, yeni geliştirme yaptığınız branchden, main branche pull request gönder: Sağda yeni oluşturduğun branch `'isim-soyisim'`, solda ise `main` branch olduğundan emin ol. Uyarı: "merge" buton'una **basmadığına** emin ol!)
 
 ## Biten Projeyi Teslim Adımları
 
