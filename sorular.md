@@ -13,7 +13,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 1. Git nedir?
  Git, proje içerisinde yapılan değişiklikleri yönetmek için kullanılan açık kaynaklı versiyon kontrol sistemidir.
 2. Git ile GitHub arasında ne fark var?
-Git, açık kaynaklı versiyon kontrolünü sağlayan bir sistemdir. Github, git tabanlı projeleri içinde depolayan, yönetimi ve paylaşımını sağlayan bir platformdur.
+Git, açık kaynaklı versiyon kontrolünü sağlayan bir sistemdir. Github ise git tabanlı projeleri içinde depolayan, yönetimi ve paylaşımını sağlayan bir platformdur.
 3. Neden bir branch oluşturuyoruz?
 Ana kod tabanını koruyarak geliştirilme esnasında yeni özellikler eklemek veya oluşan hataları düzeltebilmek için github'da branch oluşturulur.
 4. Pull Request'in amacı nedir?
