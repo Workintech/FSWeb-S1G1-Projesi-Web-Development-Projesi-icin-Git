@@ -11,7 +11,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 ## Sorular
 
 1. Git nedir?
-Versiyon kontrol sistemidir. Tek merkezde tutulan orijinal kaynak kodlarının kopyalarının diğer kullanıcılara ulaştırılması ve bu kopyalar üzerinde yapılan değişikliklerin kaydedilmesini sağlayan ve projenin güncel kalmasını sağlayan bir sistemdir
+Versiyon kontrol sistemidir. Tek merkezde tutulan orijinal kaynak kodlarının kopyalarının diğer kullanıcılara ulaştırılması ve bu kopyalar üzerinde yapılan değişikliklerin kaydedilmesini sağlayan ve projenin güncel kalmasını sağlayan bir sistemdir.
 
 2. Git ile GitHub arasında ne fark var?
 Git, proje üzerinde birden çok kişi tarafından değişiklik yapılmasını ve bunların kaydedilmesini sağlayan bir sistemdir. GitHub ise bu projelerin depolandığı git temelli bir paylaşım platformudur.
@@ -35,3 +35,4 @@ git merge: herhangi bir branchte yaptığımız değişiklikleri ana branch ile 
 
 8. Merge conflict'i nasıl çözeriz?
 Merge yapacak dosyadan sorumlu kişi çakışan kodları karşılaştırır ve hangisini kullanmak doğruysa onunla devam eder.
+
