@@ -35,4 +35,3 @@ git merge: herhangi bir branchte yaptığımız değişiklikleri ana branch ile 
 
 8. Merge conflict'i nasıl çözeriz?
 Merge yapacak dosyadan sorumlu kişi çakışan kodları karşılaştırır ve hangisini kullanmak doğruysa onunla devam eder.
-
