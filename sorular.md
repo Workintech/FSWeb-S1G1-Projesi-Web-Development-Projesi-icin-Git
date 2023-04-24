@@ -35,4 +35,4 @@ iki kişi aynı dosyayı ve aynı satırı değiştirirmeye çalıştığımızd
 
 8. Merge conflict'i nasıl çözeriz?
 
-çakışan branchlerin hangisini seçeceğimize karar veririz.
+Çakışan branchlerin hangisini seçeceğimize karar veririz.
