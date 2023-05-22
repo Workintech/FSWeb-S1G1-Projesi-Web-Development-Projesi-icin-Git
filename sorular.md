@@ -50,3 +50,5 @@ Pull refers to when you are fetching in changes and merging them. For instance, 
 A difference that occurs between merged branches. Merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
 
 8. Merge conflict'i nasıl çözeriz?
+Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir
+Resolve conflicts ile çözülür.
