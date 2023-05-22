@@ -1,3 +1,4 @@
+
 # Araştırma Soruları
 
 Artık yeni iş yerindeki ilk görevini gerçekleştirmek için hazırsın! Kullandığımız araçları biraz daha iyi anlama zamanı. Yapman istenilen şey, bu dokümanı güncelleyerek, aşağıdaki soruları soruları cevaplaman. Böylece Git yapısına biraz daha aşina olmaya başlayacaksın.
@@ -9,6 +10,8 @@ Soruları cevaplarken takıldığın yerlerde [GitHub docs](https://docs.github.
 Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama becerileriniz size yardımcı olacak. Google'ı iyi kullanabilmek de aslında büyük bir dikkat ve çalışma gerektiriyor. Zamanla bu konuda da daha iyileştiğini göreceksin :)
 
 ## Sorular
+
+Benim Adım Kubilay.
 
 1. Git nedir?
 
