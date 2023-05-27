@@ -26,7 +26,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
     Forklayip kendi bilgisayarimizda degisiklikler ekledigimiz dosyanin sorumlu kisi tarafindan kodlarin eklenme talebidir.
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
-    git checkout `isim-soyisim`
+    git switch main
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
     git fetch, dosyamizi ana dosyanin oldugu depolayiciya gonderir.
