@@ -11,17 +11,27 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 ## Sorular
 
 1. Git nedir?
+Git, açık kaynak kodlu proje paylaşım sistemi/teknolojisidir. 
 
 2. Git ile GitHub arasında ne fark var?
+Git, kod paylaşım teknolojisidir. Github ise bu teknolojinin kullanılmasını sağlayan cloud hizmetidir.
 
 3. Neden bir branch oluşturuyoruz?
+Kapsamlı bir çalışmaya başladığımız zaman ana projede değişiklik yapmadan sadece çalışma yaptığımız alana odaklanmamız gerekir. Branch sayesinde başka bir sekmede çalışıyormuş gibi değişikliklerimizi gerçekleştirebiliriz. 
 
 4. Pull Request'in amacı nedir?
+Pull Request sayesinde yaptığımız değişiklikler branch üzerinde çalışan diğer developerlara bildirilir. Bu sayede branchi merge etmeden önce üzerinde tartışma yapılabilir ve gerekli düzeltmeler sağlanabilir. 
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
-
+git brach dedikten sonra gitmek istediğimiz brach'ın adını yazarız. git brach main yazarım.
+ 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+git fetch: Remote’daki tüm commitleri local’e çeker. Çekilen commitler remote branch’lar olarak depolanır, local olarak değil. Bu sayede local’deki kodla merge etmeden önce gözden geçirme şansı verir.
+git merge: branch ile ayırıp çalıştığımız bölümleri git merge komutu ile ana projeye bağlarız.
+git pull: Remote depodaki yakın zamanda yapılan çalışmaları local depomuza almamızı sağlayan komuttur. İki kodun birleşimi şeklinde düşünülebilir: git pull = git fetch + git merge
 
 7. Merge conflict nedir?
+Branch halindeyken aynı kod satırının değiştirilirse ve git otomatik merge edemezse bu çakışma sorunu meydana gelir.
 
 8. Merge conflict'i nasıl çözeriz?
+Kullanıcının ilk olarak dosyayı açması ve çatışmalı bölümleri bulması gerekir. Daha sonra, çatışmalı bölümler manuel olarak düzenlenmeli ve Git'te tekrar birleştirme işlemi yapılmalı.
