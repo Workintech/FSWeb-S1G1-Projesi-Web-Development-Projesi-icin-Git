@@ -29,5 +29,6 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
    git pull=remote dosyadaki değişiklikleri yerel dosyaya getirir.
 
 7. Merge conflict nedir?
+   Aynı projede aynı dosyada ve satırda iki kişiinin birden değişiklik yapması ve çakışma olmasına conflick denir.
 
 8. Merge conflict'i nasıl çözeriz?
