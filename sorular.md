@@ -32,3 +32,4 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
    Aynı projede aynı dosyada ve satırda iki kişiinin birden değişiklik yapması ve çakışma olmasına conflick denir.
 
 8. Merge conflict'i nasıl çözeriz?
+   Git reset komutula çakışma giderilir.
