@@ -16,6 +16,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 2. Git ile GitHub arasında ne fark var?
    Github proje depolayablildigimiz bir alandır. Git ise githubla calısmamızı saglayan araçtır.
 3. Neden bir branch oluşturuyoruz?
+   Projenin orijinal kopyasını olusturup o kopya üzerinde calısmak için.
 
 4. Pull Request'in amacı nedir?
 
