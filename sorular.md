@@ -11,7 +11,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 ## Sorular
 
 1. Git nedir?
-   Githupdan proje local olan projeyi alıp remote olarak çalışmamızı saglayan arac.
+   Githupdan proje remote olan projeyi alıp local olarak çalışmamızı saglayan arac.
 
 2. Git ile GitHub arasında ne fark var?
    Github proje depolayablildigimiz bir alandır. Git ise githubla calısmamızı saglayan araçtır.
@@ -24,6 +24,9 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
    git checkout -b master
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+   git fetch=yerel dosyamı remote dosyanın içeriğine göre güncelle
+   git merge= Başka branch deki değişiklikleri kendi branchimize entegre etme işlemidir.
+   git pull=remote dosyadaki değişiklikleri yerel dosyaya getirir.
 
 7. Merge conflict nedir?
 
