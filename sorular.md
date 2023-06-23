@@ -19,6 +19,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
    Projenin orijinal kopyasını olusturup o kopya üzerinde calısmak için.
 
 4. Pull Request'in amacı nedir?
+   Proje üzerinde yapılan degisiklikleri asıl proje sahibine onaylatıp işletmek için
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
