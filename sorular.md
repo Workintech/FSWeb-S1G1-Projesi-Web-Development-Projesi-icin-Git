@@ -14,7 +14,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
    Githupdan proje local olan projeyi alıp remote olarak çalışmamızı saglayan arac.
 
 2. Git ile GitHub arasında ne fark var?
-
+   Github proje depolayablildigimiz bir alandır. Git ise githubla calısmamızı saglayan araçtır.
 3. Neden bir branch oluşturuyoruz?
 
 4. Pull Request'in amacı nedir?
