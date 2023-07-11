@@ -10,7 +10,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 ## Sorular
 
-1. Git nedir?
+1. Git nedir? 
 
 2. Git ile GitHub arasında ne fark var?
 
@@ -25,3 +25,12 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 7. Merge conflict nedir?
 
 8. Merge conflict'i nasıl çözeriz?
+
+
+C1: Bir yazılım projesinde aynı anda veya farklı zamanlarda yapılan kodlamaların/işlemlerin kendi çalışma alanımıza çekilmesini sağlayan terminaldir. Bu sayede outsource sağlanabilir, kod değişebilir, güncellenebilir ve onay ile projeye aktarılabilir.
+
+C2: GitHub-> Bireysel projelerin açık kaynak olarak barındığı bir alandır. Bu alanda farklı kodlamalar ve içerikler bulunur. Bunlara müdahale edilebilmesi, değiştirilebilmesi ve geliştirilebilmesi için Git yardımcı olacaktır.
+
+C3: Branch oluşturarak alanımızı belli ediyor ve o alanda yaptığımız geliştirmeleri branch özelinde kopyalayabiliyoruz.
+
+C4: 
