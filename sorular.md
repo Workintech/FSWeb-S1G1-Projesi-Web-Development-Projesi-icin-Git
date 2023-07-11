@@ -43,4 +43,4 @@ C6: 	Git fetch: Uzaktaki kodu local'e alır ama merge etmez
 
 C7: 2 kişi aynı anda aynı projeyi değişmeye çalışır ve çakışma olursa merge conflict olur.
 
-C8: Karşımızdaki kişiyi bilgilendirir, görüşmeler sonucunda uygun gelişmeyi kabul eder ve ilerleriz. 	aaaa
+C8: Karşımızdaki kişiyi bilgilendirir, görüşmeler sonucunda uygun gelişmeyi kabul eder ve ilerleriz. 	
