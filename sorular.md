@@ -29,8 +29,18 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 C1: Bir yazılım projesinde aynı anda veya farklı zamanlarda yapılan kodlamaların/işlemlerin kendi çalışma alanımıza çekilmesini sağlayan terminaldir. Bu sayede outsource sağlanabilir, kod değişebilir, güncellenebilir ve onay ile projeye aktarılabilir.
 
-C2: GitHub-> Bireysel projelerin açık kaynak olarak barındığı bir alandır. Bu alanda farklı kodlamalar ve içerikler bulunur. Bunlara müdahale edilebilmesi, değiştirilebilmesi ve geliştirilebilmesi için Git yardımcı olacaktır.
+C2: GitHub-> Bireysel projelerin açık kaynak olarak barındığı bir alandır. Bu alanda farklı kodlamalar ve içerikler bulunur. Bunlara müdahale edilebilmesi, değiştirilebilmesi ve geliştirilebilmesi için Git yardımcı olacaktır. Git bir versiyon kontrol sistemidir. GitHub ise bu versiyon kontrol sistemi ile kullandığımız projeleri depolayabildiğimiz bir portal diyebiliriz
 
 C3: Branch oluşturarak alanımızı belli ediyor ve o alanda yaptığımız geliştirmeleri branch özelinde kopyalayabiliyoruz.
 
-C4: 
+C4: Herhangi bir problem olmadığı senaryoda proje değişikliklerinin karşı tarafa gönderilmesi ve merge edilmesinin beklenmesi.
+
+C5: git checkout ile <branch adı> ile gidilir.
+
+C6: 	Git fetch: Uzaktaki kodu local'e alır ama merge etmez
+	Git merge: Branchlerdeki değişiklikleri entegre eder
+	Git pull:  Uzaktaki kodu local'e alır ve merge eder
+
+C7: 2 kişi aynı anda aynı projeyi değişmeye çalışır ve çakışma olursa merge conflict olur.
+
+C8: Karşımızdaki kişiyi bilgilendirir, görüşmeler sonucunda uygun gelişmeyi kabul eder ve ilerleriz. 	
