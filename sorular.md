@@ -18,7 +18,7 @@ Git versiyon kontrol sistemidir.Kaynak kodu geçmişimizi yönetmek için araçt
 3. Neden bir branch oluşturuyoruz?
 Projenin bir kısmını farklı bir kisi yapmak istediginde branch açılır.Branch aynı zamanda dallanmak demektir.
 4. Pull Request'in amacı nedir?
-GitHub Reposunda yeni bir branch açtıktan sonra değişikliklerini bu Branch'e yaparsın ve asıl Branch'e bir pull request(merge Request'te denir aynı zamanda) oluşturursun. Bu pull request onaylandığında değişiklikleri yaptığın branch, ana Branch'e katılır ve değişiklikler ana Branch'e yansır.
+GitHub Reposunda yeni bir branch açtıktan sonra değişikliklerini bu Branch'e yaparsın ve asıl Branch'e bir pull request(merge Request'te denir aynı zamanda) oluşturursun. Bu pull request onaylandığında değişiklikleri yaptığın branch, ana Branch'e katılır ve değişiklikler ana Branch'e yansır..
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
