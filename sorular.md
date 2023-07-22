@@ -25,3 +25,21 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 7. Merge conflict nedir?
 
 8. Merge conflict'i nasıl çözeriz?
+
+C1 - Projenin yönetilmesi versiyonlanması için kullanılan bir terminaldir.
+
+C2 - Github, projenin depolandığı yerdir. Git ise yönetildiği yer.
+
+C3 - Projeyi dallandırmak ve yönetimini kolaylaştırmak için.
+
+C4 - Proje merge edilmeden önce onaya sunmak için kullanılır.
+
+C5 - git checkout <branch-name> komutu kullanılır.
+
+C6 - 	git fetch > merge edilmeden lokale alma işlemi
+   	git pull >  fetch içerir fakat merge içerir
+	git merge > onaylanan farklı branchlerin birleştirilme işlemi
+
+C7 - Aynı anda 2 farklı kişi değişiklik yapmaya çalışıp merge ettiğinde merge conflict oluşur.
+
+C8 - Branch'teki diğer kişi ile görüşüp doğrusu ile ortak karar alınır ve birleştirme işlemi tek bir koldan gerçekleşir.
