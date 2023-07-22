@@ -43,3 +43,5 @@ C6 - 	git fetch > merge edilmeden lokale alma işlemi
 C7 - Aynı anda 2 farklı kişi değişiklik yapmaya çalışıp merge ettiğinde merge conflict oluşur.
 
 C8 - Branch'teki diğer kişi ile görüşüp doğrusu ile ortak karar alınır ve birleştirme işlemi tek bir koldan gerçekleşir.
+
+// VS Code ile commit add-commit-push-pull
