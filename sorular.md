@@ -16,6 +16,9 @@ Versiyon kontrol sistemidir.
 
 2. Git ile GitHub arasında ne fark var?
 
+Git Versiyon kontrol sistemidir.
+Github ise bulut tabanlı bir depo sistemidir. Repolarımızı yönetmemizi sağlar.
+
 3. Neden bir branch oluşturuyoruz?
 
 4. Pull Request'in amacı nedir?
