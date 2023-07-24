@@ -1,0 +1,26 @@
+1-Git nedir?
+Açık kaynak kodlu dağıtılmış sürüm kontrol sistemi.
+Kulanıcıların ana kodu değiştirmeden ve kalıcı notlar alarak mevcut kodlar üzerinde değişiklikler yapabilmesine olanak sağlayan sistem. Değişiklikleri kontrol eder ve kronoloji sıralamasını takip eder.
+
+2.Git ile GitHub arasında ne fark var?
+GitHub git tabanlı çalışan kaynak kodu barındırıcısı. Git'ten farklı olarak GitHub kar amacı güden bir hizmettir.GitHub aracılığıyla, kodunuzu başkalarıyla paylaşabilir ve onlara çeşitli Git branchları ile düzeltmeler yapma hakkı tanırsınız.
+
+3.Neden bir branch oluşturuyoruz?
+Çünkü asıl işi master'da yapmadan, master dalı temel alan yeni bir özellik oluşturmak istediğinizde genellikle Git'te yeni bir dal oluştururuz böylece diğer geliştiricilerin doğrudan master'da çalışmaya devam etmelerine veya kendi özellik dallarını(branch) oluşturmalarına olanak tanınır.
+
+4.Pull Request'in amacı nedir?
+Pull Request, üzerinde değişiklik yapılan branchların asıl kod sahibinin onayına sunulması.Eğer kabul ederse kendi master brancha dahil eder.
+
+5.Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
+git checkout master yazmalıyız. Ancak branch adını hatırlamazsak git branch yazarak tüm branchlara ulaşabiliriz.
+
+6.git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+Git fetch, uzaktaki bir deponun dosyalarını, anlık görüntülerini ve referanslarını yerel deponuza indiren bir komuttur. Bu komut, yerel deponuzun mevcut çalışma durumunu güncellemeden uzaktaki verileri indirir.
+
+Öte yandan, git pull komutu uzaktaki bir depodan verileri getirip indirirken yerel depoyu getirilen verilerle eşleşecek şekilde günceller. Git pulls komutu, git fetch ve git merge komutlarının bir kombinasyonudur, bu nedenle başlangıçta git fetch komutunun işlevini yerine getirir ve daha sonra commit’i birleştirir ve yeni bir merge commit oluşturur.
+
+7.Merge conflict nedir?
+İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır. Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir.
+
+8.Merge conflict'i nasıl çözeriz?
+Ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmeliyiz.
