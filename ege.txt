@@ -1,0 +1,35 @@
+Cevaplar:
+1.Git, Açık Kaynak Dağıtılmış Sürüm Kontrol Sistemi(Open Source Distributed Version Control System)'dir.
+
+
+2.Git, bir versiyon takip yazılımıdır (bkz: VCS Nedir ve Nasıl Kullanılır?). 
+Lokal olarak bilgisayarda çalışır ve Github olmadan da Git'i kullanabilmek mümkündür. 
+Git ile projelreinizin versiyonlamasını yapabilir ve bunu internete bile bağlanmadan kullanabilirsiniz. 
+Herhangi bir kayıt işlemine ihtiyaç duymaz.
+
+Github ise Git repository'lerinin cloud üzerinde saklandığı online bir servistir. 
+Github'a kayıt olmanız gereklidir ve ek fayda olarak da başka kişilerin repository'lerine erişebilir ya da kendi repository'lerinize erişmelerini ve katkı sağlamalarını isteyebilirsiniz. 
+Online bir servistir ve offline olarak kullanabilneniz mümkün değildir.
+
+3.Bunun birkaç yanıtı var. Mesela diyelim ki projemize yeni bir feature eklemek istiyoruz ama bu özelliğin projemizin bütünlüğünü bozma (patlatma) ihtimali var. 
+Projemizin o anki haline bir şey olmadan geliştirmeye devam etmek ama bir yandan da diğer özelliği geliştirip denemek istiyoruz.
+Böyle anlarda branching işimize oldukça yarayacaktır. Ya da Projemiz yayına çıktı ve değişiklikler yapmalıyız.
+Production sürümünü hiç bozmadan geliştirmeleri yapıp daha sonra eğer çalışıyorsa bunları productiona eklemek istiyoruz.
+Bu noktada branchler imdadımıza yetişiyor. Gibi gibi..
+
+4.Pull request talebi, temelde branch'dan sorumlu kişiden kodunuzu eklemesini istemektir.
+Ayrıca o kişinin kodda tam olarak neyi değiştirdiğinizi görmesine de yardımcı olur.
+
+5.git checkout komutunu kullanıyoruz.
+Eğer master branch'e ulaşmak istiyorsak git checkout master kullanabiliriz.
+
+6.Remote branch'deki değişiklikleri indirmek için git fetch komutunu kullanıyoruz.
+git merge ise bir branch'de yaptığımız değişiklikleri master branch'imiz ile birleştirme veya master branch'e entegre etme işlemidir.
+git pull Uzak depoda yakın zamanda yapılan değişiklikleri indiren ve bunları yerel bir depoda birleştiren bir komut.
+git fetch kodu uzak depodan yerel depoya çeken bir komut iken git pull uzak depoda yakın zamanda yapılan değişiklikleri indiren ve bunları yerel bir depoda birleştiren bir komuttur.
+Yani git pull =  git fetch + git merge
+
+7.İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır.
+Merge Conflict kavramını böyle açıklayabiliriz.
+
+8.Conflict çözmenin birkaç yolu bulunması ile beraber, temel olarak çözüm çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup conflict'i çözdükten sonra merge işlemine devam etmelidir.
