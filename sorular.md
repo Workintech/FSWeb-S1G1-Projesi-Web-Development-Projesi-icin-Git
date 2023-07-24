@@ -21,12 +21,24 @@ Github ise bulut tabanlı bir depo sistemidir. Repolarımızı yönetmemizi sağ
 
 3. Neden bir branch oluşturuyoruz?
 
+Ana kodları bozmadan çalışabilmek için.
+
 4. Pull Request'in amacı nedir?
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
+git checkout "branch ismi"
+
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+
+git merge: branchleri birleştirme işlemi
+git pull: repodaki verileri lokale çekmek
+git fetch: pull'dan farklı olarak birleştirme işlemi olmaz.
 
 7. Merge conflict nedir?
 
+aynı kodların farklı zamanlarda değiştirilmesi sonucu oluşan çakışmalar.
+
 8. Merge conflict'i nasıl çözeriz?
+
+kodlar incelenir, hangisi doğruysa o ile devam edilir.
