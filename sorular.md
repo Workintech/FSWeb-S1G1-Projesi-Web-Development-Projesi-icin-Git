@@ -25,6 +25,8 @@ Ana kodları bozmadan çalışabilmek için.
 
 4. Pull Request'in amacı nedir?
 
+Tamamladığımız branchi merge için istek atılması
+
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
 git checkout "branch ismi"
