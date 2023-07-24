@@ -12,6 +12,8 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 1. Git nedir?
 
+Versiyon kontrol sistemidir.
+
 2. Git ile GitHub arasında ne fark var?
 
 3. Neden bir branch oluşturuyoruz?
