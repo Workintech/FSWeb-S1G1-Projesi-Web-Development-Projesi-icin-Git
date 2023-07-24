@@ -15,7 +15,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 2. Git ile GitHub arasında ne fark var?
    git versiyon kontrol sistemidir, GitHub ise cloud tabanlı depolama sistemidir.
 3. Neden bir branch oluşturuyoruz?
-
+   ana kodları bozmadan çalışma imkanı sağlar.
 4. Pull Request'in amacı nedir?
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
