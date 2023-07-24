@@ -12,16 +12,32 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 1. Git nedir?
 
+   Versiyon kontrol sistemidir.
+
 2. Git ile GitHub arasında ne fark var?
+
+   Git bir versiyon sistemiyken Github, bu versiyon sistemiyle kullandığımız projeleri depolayabileceğimiz bir uygulamadır.
 
 3. Neden bir branch oluşturuyoruz?
 
+   Farklı çalışma alanları oluşturarak yapılan değişikliklerin birbirini etkilememesi sağlanır.
+
 4. Pull Request'in amacı nedir?
+
+   Yapılan değişikliklerin branch'e eklenmesi için atılan istektir.
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
+   git checkout main
+
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+
+   Git fetch, uzaktaki bir depodan değişiklikleri yerel deponuza getirir. Git merge, iki farklı daldaki değişiklikleri birleştirir. Git pull, git fetch ve git merge komutlarının birleşimidir.
 
 7. Merge conflict nedir?
 
+   Merge conflict iki veya daha fazla geliştiricinin Git deposundaki aynı dosyaya değişiklik yaptığında ortaya çıkar. Sistem hangi değişikliği kabul edeceğini farkedemediği için bu hata ile karşılaşırız.
+
 8. Merge conflict'i nasıl çözeriz?
+
+   Çakışan değişikliklerden birini seçerek bu sorunu giderebiliriz.
