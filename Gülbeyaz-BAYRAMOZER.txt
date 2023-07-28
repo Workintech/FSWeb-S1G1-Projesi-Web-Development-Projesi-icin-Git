@@ -24,3 +24,5 @@ Git fetch, uzaktaki bir deponun dosyalarını, anlık görüntülerini ve refera
 
 8.Merge conflict'i nasıl çözeriz?
 Ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmeliyiz.
+
+
