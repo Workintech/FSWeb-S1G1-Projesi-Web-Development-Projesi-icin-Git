@@ -10,7 +10,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 ## Sorular
 
-1. Git nedir?
+1. Git nedir? . .
 
 2. Git ile GitHub arasında ne fark var?
 
