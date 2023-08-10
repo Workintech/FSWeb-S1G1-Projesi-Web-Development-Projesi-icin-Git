@@ -1,4 +1,4 @@
-# Araştırma Soruları
+Araştırma Soruları
 
 Artık yeni iş yerindeki ilk görevini gerçekleştirmek için hazırsın! Kullandığımız araçları biraz daha iyi anlama zamanı. Yapman istenilen şey, bu dokümanı güncelleyerek, aşağıdaki soruları soruları cevaplaman. Böylece Git yapısına biraz daha aşina olmaya başlayacaksın.
 
@@ -24,4 +24,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 7. Merge conflict nedir?
 
-8. Merge conflict'i nasıl çözeriz?
+8.mYY
+
+
+Yyyyyyonflict'i nasıl çözeriz?
