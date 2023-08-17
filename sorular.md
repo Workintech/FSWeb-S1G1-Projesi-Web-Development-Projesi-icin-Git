@@ -10,18 +10,18 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 ## Sorular
 
-1. Git nedir? . .
+1. Git nedir? . . // Git yazılım süreçlerinde kullanılan bir sürüm kontrol ve kod yönetim sistemidir.
 
-2. Git ile GitHub arasında ne fark var? .
+2. Git ile GitHub arasında ne fark var? . // Git bir sürüm kontrol sistemiyken github bulut tabanlı, repolarımızı yöneteceğimiz bir alandır.
 
-3. Neden bir branch oluşturuyoruz?
+3. Neden bir branch oluşturuyoruz? // Branch oluşturma sebebimiz aynı anda orojenin farklı alanlarında çalışabiliyor ve ana kodu bozmuyoruz.
 
-4. Pull Request'in amacı nedir?
+4. Pull Request'in amacı nedir? // Pull request bir kodda yaptığımız değişikliği kodun sahibine ana kodla mergelemesi için yaptığımız bir işlemdir.
 
-5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
+5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın? // git switch komutuyla branchten maine geçebiliriz.
 
-6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız. // git fetch originde yapılan en son değişikleri alır fakat merge yapmaz. git pull ise origindeki değişikleri alarak mainle mergeler. git fetchle aldığımız değişikleri mergelemek için de git merge komutunu kullanırız.
 
-7. Merge conflict nedir?
+7. Merge conflict nedir? // merge conflict değişikleri mergelerken aynı yerde değişiklik yapıldığında çıkan hatadır.
 
-8. Merge conflict'i nasıl çözeriz?
+8. Merge conflict'i nasıl çözeriz? // merge conflict olduğunda bu sorunu manuel olarak çözmek gerekir. Manuel olarak hangi aynı kodlarda çalışışdığı tespit edildikten sonra düzeltme yapıp git merge yapılmalıdır.
