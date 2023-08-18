@@ -11,17 +11,17 @@ Bunları yaptıysan, sana yöneticin tarafından verilen ilk görevin 'Git'e aş
 
 ## Görev 1:
 
-- [ ] Bu repo'yu sağ üstteki Fork butonu ile kendi hesabında bir kopyasını oluştur.
-- [ ] ❗**Kendi Github hesabında**❗oluşan kopya'yı aç. Bilgisayarınıza _clone_'lamak için sağ üstteki yeşil `Code` butonu ile SSH URL'i kopyala. SSH URL örneği: `git@Github.com:senin-Github-hesabin/fsweb-s1g1-projesi-web-development-projesi-icin-git`
-- [ ] Mac kullanıyorsan `Terminal`i, Windows kullanıyorsan `Git Bash`'de `git clone` yazdıktan sonra bu url'i yapıştırıp çalıştır. Örneğin: `git clone git@Github.com:senin-Github-hesabin/fsweb-s1g1-projesi-web-development-Projesi-icin-git`
-- [ ] Clone'ladığın projenin klasörüne gir. (İPUCU: `ls`komutu ile oluşan klasörün adını görebilir, `cd` komutu ile klasöre girebilirsin.)
-- [ ] Bir branch yarat: `git checkout -b 'isim-soyisim'`
-- [ ] Sorular.md dosyasındaki soruları cevapla.
-- [ ] Aşağıdaki adımları takip ederk;
-- 1 [ ] bilgisayarında değiştirdiğin dosyayı ekle (`git add dosya-adi`),
-- 2 [ ] commit ediniz(`git commit -m 'Yaptığın değişikliği, iki hafta sonraki unutkan haline bile hatırlatabilecek bir açıklama'`)
-- 3 [ ] ve Github'a push'la (`git push -u origin isim-soyisim`).
-- 4 [ ] Github'da Pull Request oluştur: Kendi reponun içerisinde iken, yeni geliştirme yaptığın branchden, main branche pull pull request gönder: Sağda yeni oluşturduğun branch `'isim-soyisim'`, solda ise `main` branch olduğundan emin ol. Uyarı: "merge" buton'una **basmadığına** emin ol!)
+- [x] Bu repo'yu sağ üstteki Fork butonu ile kendi hesabında bir kopyasını oluştur.
+- [x] ❗**Kendi Github hesabında**❗oluşan kopya'yı aç. Bilgisayarınıza _clone_'lamak için sağ üstteki yeşil `Code` butonu ile SSH URL'i kopyala. SSH URL örneği: `git@Github.com:senin-Github-hesabin/fsweb-s1g1-projesi-web-development-projesi-icin-git`
+- [x] Mac kullanıyorsan `Terminal`i, Windows kullanıyorsan `Git Bash`'de `git clone` yazdıktan sonra bu url'i yapıştırıp çalıştır. Örneğin: `git clone git@Github.com:senin-Github-hesabin/fsweb-s1g1-projesi-web-development-Projesi-icin-git`
+- [x] Clone'ladığın projenin klasörüne gir. (İPUCU: `ls`komutu ile oluşan klasörün adını görebilir, `cd` komutu ile klasöre girebilirsin.)
+- [x] Bir branch yarat: `git checkout -b 'isim-soyisim'`
+- [x] Sorular.md dosyasındaki soruları cevapla.
+- [x] Aşağıdaki adımları takip ederk;
+- 1 [x] bilgisayarında değiştirdiğin dosyayı ekle (`git add dosya-adi`),
+- 2 [x] commit ediniz(`git commit -m 'Yaptığın değişikliği, iki hafta sonraki unutkan haline bile hatırlatabilecek bir açıklama'`)
+- 3 [x] ve Github'a push'la (`git push -u origin isim-soyisim`).
+- 4 [x] Github'da Pull Request oluştur: Kendi reponun içerisinde iken, yeni geliştirme yaptığın branchden, main branche pull pull request gönder: Sağda yeni oluşturduğun branch `'isim-soyisim'`, solda ise `main` branch olduğundan emin ol. Uyarı: "merge" buton'una **basmadığına** emin ol!)
 
 ## Biten Projeyi Teslim Adımları
 
