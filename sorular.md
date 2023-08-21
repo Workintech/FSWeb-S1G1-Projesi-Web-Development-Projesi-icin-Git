@@ -1,12 +1,4 @@
-# Araştırma Soruları
-
-Artık yeni iş yerindeki ilk görevini gerçekleştirmek için hazırsın! Kullandığımız araçları biraz daha iyi anlama zamanı. Yapman istenilen şey, bu dokümanı güncelleyerek, aşağıdaki soruları soruları cevaplaman. Böylece Git yapısına biraz daha aşina olmaya başlayacaksın.
-
-Soruları cevaplarken takıldığın yerlerde [GitHub docs](https://docs.github.com/en)'u kullanabilirsin. Docs, (ingilizce documentation'ın kısaltılmış halidir) bir programı veya dilin nasıl kullanılacağını anlatan dokümandır. Yazılım dünyasında sıkça kullanılır. Bir yazılımcı olarak _zamanınızın büyük çoğunluğu da bu tarz dokümanları okumakla ve üzerinde çalışmakla geçecek_.
-
-![READ THE DOCS](https://github.com/Workintech/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git/blob/main/read-the-docs-wit.gif?raw=true)
-
-Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama becerileriniz size yardımcı olacak. Google'ı iyi kullanabilmek de aslında büyük bir dikkat ve çalışma gerektiriyor. Zamanla bu konuda da daha iyileştiğini göreceksin :)
+##Murat Can ÖZCAN
 
 ## Sorular
 
@@ -25,3 +17,23 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 7. Merge conflict nedir?
 
 8. Merge conflict'i nasıl çözeriz?
+
+## Cevaplar
+
+1. Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir.
+
+2. GitHub, yazılım geliştiren ekiplerin aynı anda çalışabilmesini sağlayan internet tabanlı bir veri depolama alanıdır.
+
+3. Branch, hali hazırda elimizde bulunan bir projenin kopyasını oluşturarak, ana projede bir değişiklik yapmadan yenilikler eklemek için kullanılır.
+
+4. Pull request'in amacı, çalışılmak istenen projenin sahibine yapılan değişiklikleri inceletmek üzere talepte bulunmaktır.
+
+5. `isim-soyisim` branch'indeyken "git checkout main" komutu ile geçiş yapabilirim.
+
+6. `git fetch`, yerel depoyu uzaktaki deponun içeriğine göre güncellemeyi sağlar.
+`git merge`, başka bir branch'deki değişiklikleri üzerinde çalışılan kendi branch'imize entegre etmemimizi sağlar.
+`git pull`, proje ana dosyasında yapılan değişikliklerin bilgisayarımızdaki versiyonuna çekilmesini sağlar.
+
+7. Merge conflict, iki kişi aynı anda aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemediğinde oluşan çakışmadır.
+
+8. "git commit -a uygulama.txt" veya "git add uygulama.txt" ile sorun çözüme ulaştırılabilir.
