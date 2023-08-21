@@ -1,27 +1,38 @@
 # Araştırma Soruları
 
-Artık yeni iş yerindeki ilk görevini gerçekleştirmek için hazırsın! Kullandığımız araçları biraz daha iyi anlama zamanı. Yapman istenilen şey, bu dokümanı güncelleyerek, aşağıdaki soruları soruları cevaplaman. Böylece Git yapısına biraz daha aşina olmaya başlayacaksın.
-
-Soruları cevaplarken takıldığın yerlerde [GitHub docs](https://docs.github.com/en)'u kullanabilirsin. Docs, (ingilizce documentation'ın kısaltılmış halidir) bir programı veya dilin nasıl kullanılacağını anlatan dokümandır. Yazılım dünyasında sıkça kullanılır. Bir yazılımcı olarak _zamanınızın büyük çoğunluğu da bu tarz dokümanları okumakla ve üzerinde çalışmakla geçecek_.
-
-![READ THE DOCS](https://github.com/Workintech/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git/blob/main/read-the-docs-wit.gif?raw=true)
-
-Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama becerileriniz size yardımcı olacak. Google'ı iyi kullanabilmek de aslında büyük bir dikkat ve çalışma gerektiriyor. Zamanla bu konuda da daha iyileştiğini göreceksin :)
-
 ## Sorular
 
 1. Git nedir?
 
+Git, bir versiyonlama sistemidir. OpenSource olmasından kaynaklı herkes tarafından erişilebilir, değiştirilebilir ve dağıtılabilir. Aynı zamanda depolama görevi de yapar. Projelerde yapılan değişiklikleri kronolojik olarak görmemizi sağlar. Bir proje yaratıldıktan sonra bütün geliştiricilerin koda eklemeler, değişiklikler yapmasına olanak tanır.
+
 2. Git ile GitHub arasında ne fark var?
+
+GitHub içinde git barındırma hizmeti bulunur. Bireyler ve ekipler için git kullanımını kolaylaştırır.
+Bulut tabanlı bir depolama hizmeti sunar.
 
 3. Neden bir branch oluşturuyoruz?
 
+Kaynak kodun bir kopyasını oluşturarak orijinal koddan bağımsız bir şekilde değişiklik yapmamızı sağlar. Yapılan değişiklikler eğer hatasızsa bu değişiklikler tekrardan master branch'e taşınır
+
 4. Pull Request'in amacı nedir?
+
+GitHub'daki proje ana dosyasında yapılan değişikliklerin bilgisayara çekilmesini sağlar. Github'da bulutta depolanan versiyonu yerel depoda birleştirmeye yarar.
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
+Git checkout komutunu kullanıp istediğim branch'in ismini yazarım.
+
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+
+Git fetch: Yapılan değişiklikleri gösterir ancak bunları uygulamaz.
+Git merge: git branch tarafından oluşturduğumuz branchleri tek bir branch've birleştirmemizi sağlar.
+Git pull: Yapılan değişiklikleri gösterir ve uygular
 
 7. Merge conflict nedir?
 
+Birden fazla kişinin aynı satır veya dosyayı değiştirmesi durumunda git otomatik olarak merge edemezse conflict ortaya çıkar. Conflict olmaması için her değişiklikten sonra push ve pull yapılmalı.
+
 8. Merge conflict'i nasıl çözeriz?
+
+Conflict yaşayan kişilerin beraber oturup conflict yaşanan bölümleri bulması gerekir. Bu conflict'ler(çakışmalar) manuel olarak düzenlendikten sonra tekrardan merge işlemi gerçekleştirilir.
