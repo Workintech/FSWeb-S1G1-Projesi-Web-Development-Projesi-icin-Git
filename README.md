@@ -2,6 +2,7 @@
 
 Workintech!
 Merhaba sınıf
+Git
 Yeni bir kurumda bir Full Stack Web Developer olarak işe başladığınızı hayal et. İlk gün yapacağın işlerden biri de, sorumlu olacağın projenin kodlarını kendi bilgisayarınıza almak ve bu kodların çalışacağı ortamı hazırlamak.
 
 Sorumlu olacağın projenin kodlarını çalıştırabilmek için;
