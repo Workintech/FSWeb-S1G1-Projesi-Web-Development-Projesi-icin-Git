@@ -28,3 +28,4 @@ Bunları yaptıysan, sana yöneticin tarafından verilen ilk görevin 'Git'e aş
 Verilen görevi tamamladıktan sonra [Workintech Platformu](https://app.workintech.com.tr)'nda (app.workintech.com.tr) `Sprint 1>Gün 1`'in sonundaki "`Proje Teslim: Sprint 1 Gün 1`" içeriğini açıp; Github hesabınızda oluşturduğun repo'nun adresini buraya ekle.
 
 Eğitmenlerimiz, gün projeni kontrol edecek, gereken durumlarda sana slack üzerinden geribildirimde bulunacak.
+Değişiklik
