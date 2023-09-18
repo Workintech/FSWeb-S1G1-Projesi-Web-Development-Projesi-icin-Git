@@ -11,17 +11,22 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 ## Sorular
 
 1. Git nedir?
-
+    Projeleri yönetmek,yapılmış olan projeleri izlemek ve geçmiş sürümlere geri dönmek gibi işlevlerde kullanılan bir yazılımdır. 
 2. Git ile GitHub arasında ne fark var?
-
+    Git, projenin bir kopyasını oluşturduğumuz, yerel bilgisayarımızda değişiklikleri izlediğimiz,kaydettiğimiz ve geçmiş sürümlere erişim sağlayan GitHub ise git tabanlı projelerin uzak sunucularda barındırılmasını , işbirliği yapılmasını kolaylaştıran bir web tabanlı platfomdur.
 3. Neden bir branch oluşturuyoruz?
-
+    Sunucuda bulunan ana kodların üzerine yapılan değişimlerin herhangi bir hataya sebep olmaması için branch oluştururuz. 
 4. Pull Request'in amacı nedir?
-
+    Açık kaynaklı bir projeye katkıda bulunmak isteyen bir kişinin, proje sahibine yaptığı değişiklikleri inceletmek için yaptığı taleptir.
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
+    git checkout main
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
-
+    Git fetch: Uzaktaki bir deponun dosyalarını, anlık görüntülerini yerel depoya indiren komut.
+    Git merge: Bir branch'deki diğişiklikleri kendi çalıştığımız branch'e entegre etme işlemi.
+    Git pull: Ana proje dosyasındaki değişiklikleri kendi bilgisayarımızdaki versiyona çekmemizi sağlar.
+    Farklılıklar: Git fetch, uzak depodan güncellemeleri çeker ancak yerel kodunuzu güncellemez; git merge, dallardaki değişiklikleri birleştirir; git pull, uzak depodan güncellemeleri çeker ve yerel kodunuzu günceller.
 7. Merge conflict nedir?
-
+ Master kodlardan bağımsız oluşturulan yedek kodlar üzerinde çalışılıp tekrar sisteme entegre edilmesine denir.
 8. Merge conflict'i nasıl çözeriz?
+    Merge conflict'i çözmek için, çakışan değişiklikleri elle düzenleyerek ve ardından düzeltilen dosyayı kaydedip commitleyerek Git'e çözümü işaretlemeniz ve birleştirme işlemine devam etmemiz gerekmektedir.
