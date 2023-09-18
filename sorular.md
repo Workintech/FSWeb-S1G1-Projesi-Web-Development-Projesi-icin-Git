@@ -1,4 +1,4 @@
-# Araştırma Soruları
+﻿# Araştırma Soruları
 
 Artık yeni iş yerindeki ilk görevini gerçekleştirmek için hazırsın! Kullandığımız araçları biraz daha iyi anlama zamanı. Yapman istenilen şey, bu dokümanı güncelleyerek, aşağıdaki soruları soruları cevaplaman. Böylece Git yapısına biraz daha aşina olmaya başlayacaksın.
 
@@ -25,3 +25,38 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 7. Merge conflict nedir?
 
 8. Merge conflict'i nasıl çözeriz?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CEVAPLAR
+
+1- Yazılım geliştirirken kullanılan versiyon kontrol sistemi Git'tir.
+
+2- Git bir versiyon kontrol sistemidir. Github ise bu bu versiyon kontrol sistemi ile çalıştığımız projeleri depolamak için kullandığımız yerdir. 
+
+3- Branch oluşturmamızın sebebi işleyen kod dizilimini daha farklı bir kod dizilimi ile değiştirmeden önce, yeni yazacağımız kodun tam doğru çalışıp çalışmadığını test etmektir. Örnek olarak bir sitenin kodlarını değiştirirken branch yapmazsak ve kodlar hatalı çalışırsa sitenin çalışması aksar.
+
+4- Pull request talebinin amacı, ayrı branch üzerinde çalışırken yaptığımız değişikliklerin ana branche alınması talebidir. 
+
+5- Branchler arası gezme komutu “git checkout” komutudur. Main branche geçmek içinse git checkout main komutunu kullanabiliriz.
+
+6- Git pull repodaki tüm değişiklikleri direkt çalışma dizinimize çeker.
+   Git fetch repodaki değişiklikleri local repomuza kopyalar.
+   Git merge, git fetch komutu kullanılmadan kullanılırsa çalışmaz. İlk     başta git fetch ile local repomuza kopyaladığımız değişiklikleri git merge ile çalışma dizinimize çekebiliriz.
+
+7- Merge conflict iki kişi aynı dosya ve aynı satırı birbirinden farklı şekilde değiştirirse veya bir kişi düzenleme yaparken diğeri dosyayı silerse ortaya çıkabilir.
+
+8- Aynı satırda iki farklı kod çatışmasını çözmek için, hangi dalın işleme alınacağını karar vererek çözebiliriz. 	
