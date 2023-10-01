@@ -12,7 +12,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 1. Git nedir?
 
-Versiyon kontrol sistemidir.
+Versiyon kontrol sistemidir..
 
 2. Git ile GitHub arasında ne fark var?
 
@@ -20,7 +20,7 @@ Git versiyon kodlama sistemidir. Github depolarının bulunduğu ve projelerin y
 
 3. Neden bir branch oluşturuyoruz?
 
-Bir projede birden fazla kişi çalışabildiği için asıl kaynağın bozulmaması için oluşturulur.
+Bir projede birden fazla kişi çalışabildiği için asıl kaynağın bozulmaması için oluştur ulur.
 
 4. Pull Request'in amacı nedir?
 
