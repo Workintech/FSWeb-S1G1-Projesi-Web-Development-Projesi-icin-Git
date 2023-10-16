@@ -33,7 +33,7 @@ git checkout 'isim-soyisim'
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 
 remote repository'den içerikleri indirmek için git fetch, yazdığımız kodu masterla birleştirmeye git merge, 
-yazdığın kodun ana bilgisayara çekilmesi talebine git pull
+yazdığın kodun ana bilgisayara çekilmesi talebine git pull-u
 
 7. Merge conflict nedir?
 
