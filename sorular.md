@@ -25,3 +25,25 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 7. Merge conflict nedir?
 
 8. Merge conflict'i nasıl çözeriz?
+
+
+## Cevaplar
+
+1. Git bir versiyon kontrol aracıdır. Bir projenin tüm versiyonlarında denetleme ve kontrolü sağlar. Bunun yanında Branch gibi proje dalları oluşturma imkanı sunarak projelerin çalışmasındaki olabilecek aksaklıkların önüne geçer.
+
+2. Git versiyon kontrol aracıyken, GitHub git tabanlı projelerin depolanması ve paylaşılmasını sağlayan çevrimiçi platformdur.
+
+3. Branch sayesinde farklı bir çalışma ortamı oluşturabiliriz. Bu sayade -main- proje çalışmaya devam ederken oluşturduğumuz branch ortamında projemizin farklı bir özelliğini geliştirebiliriz. Yeni yazdığımız kodun oluşturacağı bir hatadan da projemizi korumuş oluruz. 
+
+4. Birden fazla geliştiricinin çalıştığı projelerde kod paylaşımını kolaylaştırır. Bu sayede iş takibini, projede olabilecek hatalardan kaçınmayı ve yazılan kodun birçok geliştrici tarafından gelişmesi konusunda faydalar sağlar. 
+
+5. `git checkout main` komutu ile branch main olarak değiştirilir.
+
+6. 
+    `git fetch` komutu ile repodan güncellemeler çekilir fakat kod ile birleştirilmez.
+    `git merge` branchleri birleştirmek için kullanılır
+    `git pull` komutu ise repodaki güncelleştirmeleri çekip kodumuzla birleştirmemizi sağlar. Hızlıca kodu güncelleştir.
+
+7. Merge yaparken, aynı dosyada iki kod satırı birbirinin çalışmasını engelleyecek şekilde aynı satırda çakışmasıdır. Bu hatada git hangi kodu tutacağını bilemez. 
+
+8. Çakışma olan satırlar görüldükten sonra, bir metin düzenleyicisinde hangi satırın korunacağı seçilerek kaydedilir. Düzeltmeler yapıldıktan sonra, `git add` ve `git commit` komutlarıyla kodu güncelleriz. Daha sonra merge ederek birleştirme tamamlanabilir.
