@@ -31,9 +31,13 @@ $ git branch main
 branch@change /c/git/github (main)
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
-git fetch: yerel repository'ye uzak repositorydeki yeni yapalın değşiklikleri haber veren komuttur.
-
+git fetch: yerel repository'ye uzak repositorydeki yeni yapalan değşiklikleri haber veren komuttur.
+Git merge: Bu komut Gitin forklanmış geçmişi tekrar orjinal repository ile birleştirme yoludur.
+Ayrı olarak indirilip yazılan kodları orjinal repositorydeki dosyayle entegre etme işlemidir.
+Git Pull: Lokaldeki reposidory veryyonuna uzaktaki repository versyonundaki değişiklikleri/güncellemeleri aktarmada kllanılan komuttur.
 
 7. Merge conflict nedir?
-
+Merge işleminin dosyanın iki farklı versoyu arasında sorunsuz bir şekilde gerçekleştirilemiyor olmasıdr.
 8. Merge conflict'i nasıl çözeriz?
+Merge conflictleri çözmenin birden fazla yolu var, Merge conflictle karşılaştığımız zaman "Accept incoming changes, Both changes" vs. gibi seçenekleri seçerek
+kodda hangi değişikliklerin kalmasına karar verebiliriz. Aynı zamanda Pair coding yaparak, koddaki uyuşmazlıklarda kodu yazan kişiler tarafından bir ortak çalışmayla pairing işleme gerçekleşir.
