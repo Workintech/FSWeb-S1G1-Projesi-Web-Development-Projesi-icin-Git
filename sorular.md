@@ -41,3 +41,5 @@ Merge işleminin dosyanın iki farklı versoyu arasında sorunsuz bir şekilde g
 8. Merge conflict'i nasıl çözeriz?
 Merge conflictleri çözmenin birden fazla yolu var, Merge conflictle karşılaştığımız zaman "Accept incoming changes, Both changes" vs. gibi seçenekleri seçerek
 kodda hangi değişikliklerin kalmasına karar verebiliriz. Aynı zamanda Pair coding yaparak, koddaki uyuşmazlıklarda kodu yazan kişiler tarafından bir ortak çalışmayla pairing işleme gerçekleşir.
+
+Bu satır eklemeyi github panelinde görmek için yapılmıştır.
