@@ -11,17 +11,35 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 ## Sorular
 
 1. Git nedir?
-
+Source kodumuzdaki yani repositorymizdeki yapılan değişiklikleri takip etmek ve öğrenmek için kullanılan bir kontrol sistemi.  
 2. Git ile GitHub arasında ne fark var?
-
+Git indirdiğimiz yazılım dosyaları bilgisayarımızda yerel olarak kaydetmemizi sağlayan tool developerdır. GitHub ise, bilgisayarda Git tool'u ile çalıştırılan kodlarımızı online'a push etmeye ve orda tutmaya yarayan çevrimiçi servistir. 
 3. Neden bir branch oluşturuyoruz?
-
+Default olarak oluşturulan main branchinde değişiklik yapmak projede sorunlar ve karışıklık yaratabileceğinden, kodda yapılacak değişiklikleri takip ve uygulama konusunda sağlayacağı kolaylıktan dolayı farklı bir branch oluştururuz.
 4. Pull Request'in amacı nedir?
-
+GitHubdaki Repositoryde çalıştığın/değiştirdiğin/pushladığın kodlardan  diğer proje arkadaşlarını haberdar etmek amacıdır.   
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
+Branch arasında değitim yapmak için Switch komutunu kullanırız.Yukarıdaki verilen branchten main branchine gitmek için şunu yapardım:
+branch@change /c/git/github ('isim-soyisim')
+$ git branch -a
+* isim-soyisim
+main
+isim-soyisim
+
+branch@change /c/git/github (isim-soyisim)
+$ git branch main
+branch@change /c/git/github (main)
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+git fetch: yerel repository'ye uzak repositorydeki yeni yapalan değşiklikleri haber veren komuttur.
+Git merge: Bu komut Gitin forklanmış geçmişi tekrar orjinal repository ile birleştirme yoludur.
+Ayrı olarak indirilip yazılan kodları orjinal repositorydeki dosyayle entegre etme işlemidir.
+Git Pull: Lokaldeki reposidory veryyonuna uzaktaki repository versyonundaki değişiklikleri/güncellemeleri aktarmada kllanılan komuttur.
 
 7. Merge conflict nedir?
-
+Merge işleminin dosyanın iki farklı versoyu arasında sorunsuz bir şekilde gerçekleştirilemiyor olmasıdr.
 8. Merge conflict'i nasıl çözeriz?
+Merge conflictleri çözmenin birden fazla yolu var, Merge conflictle karşılaştığımız zaman "Accept incoming changes, Both changes" vs. gibi seçenekleri seçerek
+kodda hangi değişikliklerin kalmasına karar verebiliriz. Aynı zamanda Pair coding yaparak, koddaki uyuşmazlıklarda kodu yazan kişiler tarafından bir ortak çalışmayla pairing işleme gerçekleşir.
+
+Bu satır eklemeyi github panelinde görmek için yapılmıştır. Şimdi oldu mu 
